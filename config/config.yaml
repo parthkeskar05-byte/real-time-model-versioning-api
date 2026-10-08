@@ -1,0 +1,13 @@
+mlflow:
+  tracking_uri: "sqlite:///mlflow.db"
+  experiment_name: "model-versioning"
+  artifact_location: "./mlruns"
+
+api:
+  host: "0.0.0.0"
+  port: 8000
+  reload: false
+
+git:
+  auto_commit_tracking: true
+  repo_path: "."
